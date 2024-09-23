@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#area{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+#element{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+}
